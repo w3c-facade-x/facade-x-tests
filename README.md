@@ -4,7 +4,7 @@ A curated test suite for transformations from various formats to RDF using [FX (
 
 ## Purpose
 
-This repository collects reference test cases that verify the correctness of FX-based transformations. Each test captures the full lifecycle of a conversion: a source file in some input format, the FX query (or configuration) used to transform it, and the expected RDF output.
+This repository collects reference test cases that verify the correctness of FX-based transformations. Each test captures the full lifecycle of a conversion: a source file in some input format, the configuration used to transform it, and the expected RDF output.
 
 The goals of this collection are to:
 
