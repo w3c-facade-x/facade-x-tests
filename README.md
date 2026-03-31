@@ -1,6 +1,6 @@
 # facade-x-tests
 
-A curated test suite for transformations from various formats to RDF using [FX (Facade-X)](https://github.com/SPARQL-Anything/sparql.anything).
+A curated test suite for transformations from various formats to RDF using [FX (Facade-X)](https://github.com/w3c-facade-x/facade-x-specs).
 
 ## Purpose
 
