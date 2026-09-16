@@ -1,0 +1,6 @@
+_:B <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sparql.xyz/facade-x/ns/root> .
+_:B <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sparql.xyz/facade-x/data/person> .
+_:B <http://sparql.xyz/facade-x/data/id> "p1" .
+_:B <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> _:BX2FpersonX2F1X3Aname .
+_:BX2FpersonX2F1X3Aname <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sparql.xyz/facade-x/data/name> .
+_:BX2FpersonX2F1X3Aname <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> "Alice" .
