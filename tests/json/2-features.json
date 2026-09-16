@@ -1,0 +1,28 @@
+{
+  "string": "Hello, world",
+  "emptyString": "",
+  "escapes": "quote \" backslash \\ slash \/ tab \t newline \n cr \r backspace \b formfeed \f",
+  "unicode": "caf\u00e9, 日本語, emoji \ud83d\ude42",
+  "integer": 42,
+  "negative": -7,
+  "zero": 0,
+  "negativeZero": -0,
+  "decimal": 3.14,
+  "exponent": 1.5e3,
+  "negativeExponent": 2E-4,
+  "bigInteger": 12345678901234567890,
+  "true": true,
+  "false": false,
+  "null": null,
+  "emptyObject": {},
+  "emptyArray": [],
+  "object": {
+    "nested": {
+      "deep": "value"
+    }
+  },
+  "array": [1, "two", 3.0, true, null, {"key": "value"}, ["nested", "array"], [], {}],
+  "key with spaces": "spaces in key",
+  "": "empty key",
+  "k\u00e9y-ünïcödé": "non-ASCII key"
+}

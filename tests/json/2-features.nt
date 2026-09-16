@@ -1,0 +1,35 @@
+_:B <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sparql.xyz/facade-x/ns/root> .
+_:B <http://sparql.xyz/facade-x/data/string> "Hello, world" .
+_:B <http://sparql.xyz/facade-x/data/emptyString> "" .
+_:B <http://sparql.xyz/facade-x/data/escapes> "quote \" backslash \\ slash / tab \t newline \n cr \r backspace \b formfeed \f" .
+_:B <http://sparql.xyz/facade-x/data/unicode> "café, 日本語, emoji 🙂" .
+_:B <http://sparql.xyz/facade-x/data/integer> "42"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:B <http://sparql.xyz/facade-x/data/negative> "-7"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:B <http://sparql.xyz/facade-x/data/zero> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:B <http://sparql.xyz/facade-x/data/negativeZero> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:B <http://sparql.xyz/facade-x/data/decimal> "3.14"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:B <http://sparql.xyz/facade-x/data/exponent> "1.5e3"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:B <http://sparql.xyz/facade-x/data/negativeExponent> "2E-4"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:B <http://sparql.xyz/facade-x/data/bigInteger> "12345678901234567890"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:B <http://sparql.xyz/facade-x/data/true> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:B <http://sparql.xyz/facade-x/data/false> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:B <http://sparql.xyz/facade-x/data/emptyObject> _:BX2FemptyObject .
+_:B <http://sparql.xyz/facade-x/data/emptyArray> _:BX2FemptyArray .
+_:B <http://sparql.xyz/facade-x/data/object> _:BX2Fobject .
+_:B <http://sparql.xyz/facade-x/data/array> _:BX2Farray .
+_:B <http://sparql.xyz/facade-x/data/key%20with%20spaces> "spaces in key" .
+_:B <http://sparql.xyz/facade-x/data/> "empty key" .
+_:B <http://sparql.xyz/facade-x/data/kéy-ünïcödé> "non-ASCII key" .
+_:BX2Fobject <http://sparql.xyz/facade-x/data/nested> _:BX2FobjectX2Fnested .
+_:BX2FobjectX2Fnested <http://sparql.xyz/facade-x/data/deep> "value" .
+_:BX2Farray <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> "1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:BX2Farray <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> "two" .
+_:BX2Farray <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> "3.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:BX2Farray <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:BX2Farray <http://www.w3.org/1999/02/22-rdf-syntax-ns#_6> _:BX2FarrayX2FX5F6 .
+_:BX2Farray <http://www.w3.org/1999/02/22-rdf-syntax-ns#_7> _:BX2FarrayX2FX5F7 .
+_:BX2Farray <http://www.w3.org/1999/02/22-rdf-syntax-ns#_8> _:BX2FarrayX2FX5F8 .
+_:BX2Farray <http://www.w3.org/1999/02/22-rdf-syntax-ns#_9> _:BX2FarrayX2FX5F9 .
+_:BX2FarrayX2FX5F6 <http://sparql.xyz/facade-x/data/key> "value" .
+_:BX2FarrayX2FX5F7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> "nested" .
+_:BX2FarrayX2FX5F7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> "array" .
