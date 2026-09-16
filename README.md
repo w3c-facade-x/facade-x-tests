@@ -33,3 +33,16 @@ For example, the first base test for JSON would be made up of `1-base.json`, `1-
 ## Status
 
 The repository is currently being set up. Test cases will be added progressively.
+
+
+## Runner
+A Python script that uses SPARQL Anything v1.2.0 (the current latest release) and needs only rdflib plus Java 17+. 
+
+
+```python
+pip install -r requirements.txt
+python run_tests.py                  # all tests, latest release
+python run_tests.py csv json/1-base  # only paths containing these strings
+python run_tests.py --version v1.1.0 # pin a release
+python run_tests.py --jar path/to/sparql-anything.jar
+```
