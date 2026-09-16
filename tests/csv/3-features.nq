@@ -1,0 +1,50 @@
+_:B <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sparql.xyz/facade-x/ns/root> <https://w3c-facade-x.github.io/facade-x-tests/tests/csv/3-features#> .
+_:B <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> _:BX23row1 <https://w3c-facade-x.github.io/facade-x-tests/tests/csv/3-features#> .
+_:B <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> _:BX23row2 <https://w3c-facade-x.github.io/facade-x-tests/tests/csv/3-features#> .
+_:B <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> _:BX23row3 <https://w3c-facade-x.github.io/facade-x-tests/tests/csv/3-features#> .
+_:B <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> _:BX23row4 <https://w3c-facade-x.github.io/facade-x-tests/tests/csv/3-features#> .
+_:B <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> _:BX23row5 <https://w3c-facade-x.github.io/facade-x-tests/tests/csv/3-features#> .
+_:B <http://www.w3.org/1999/02/22-rdf-syntax-ns#_6> _:BX23row6 <https://w3c-facade-x.github.io/facade-x-tests/tests/csv/3-features#> .
+_:B <http://www.w3.org/1999/02/22-rdf-syntax-ns#_7> _:BX23row7 <https://w3c-facade-x.github.io/facade-x-tests/tests/csv/3-features#> .
+_:BX23row1 <http://sparql.xyz/facade-x/data/id> "1" <https://w3c-facade-x.github.io/facade-x-tests/tests/csv/3-features#> .
+_:BX23row1 <http://sparql.xyz/facade-x/data/name> "Alice" <https://w3c-facade-x.github.io/facade-x-tests/tests/csv/3-features#> .
+_:BX23row1 <http://sparql.xyz/facade-x/data/description> "Plain value" <https://w3c-facade-x.github.io/facade-x-tests/tests/csv/3-features#> .
+_:BX23row1 <http://sparql.xyz/facade-x/data/price> "10.5" <https://w3c-facade-x.github.io/facade-x-tests/tests/csv/3-features#> .
+_:BX23row1 <http://sparql.xyz/facade-x/data/tags> "a;b" <https://w3c-facade-x.github.io/facade-x-tests/tests/csv/3-features#> .
+_:BX23row1 <http://sparql.xyz/facade-x/data/notes> "" <https://w3c-facade-x.github.io/facade-x-tests/tests/csv/3-features#> .
+_:BX23row2 <http://sparql.xyz/facade-x/data/id> "2" <https://w3c-facade-x.github.io/facade-x-tests/tests/csv/3-features#> .
+_:BX23row2 <http://sparql.xyz/facade-x/data/name> "Bob, Jr." <https://w3c-facade-x.github.io/facade-x-tests/tests/csv/3-features#> .
+_:BX23row2 <http://sparql.xyz/facade-x/data/description> "Contains a comma" <https://w3c-facade-x.github.io/facade-x-tests/tests/csv/3-features#> .
+_:BX23row2 <http://sparql.xyz/facade-x/data/price> "0" <https://w3c-facade-x.github.io/facade-x-tests/tests/csv/3-features#> .
+_:BX23row2 <http://sparql.xyz/facade-x/data/tags> "" <https://w3c-facade-x.github.io/facade-x-tests/tests/csv/3-features#> .
+_:BX23row2 <http://sparql.xyz/facade-x/data/notes> "" <https://w3c-facade-x.github.io/facade-x-tests/tests/csv/3-features#> .
+_:BX23row3 <http://sparql.xyz/facade-x/data/id> "3" <https://w3c-facade-x.github.io/facade-x-tests/tests/csv/3-features#> .
+_:BX23row3 <http://sparql.xyz/facade-x/data/name> "Carol \"CJ\" Jones" <https://w3c-facade-x.github.io/facade-x-tests/tests/csv/3-features#> .
+_:BX23row3 <http://sparql.xyz/facade-x/data/description> "Contains \"escaped\" quotes" <https://w3c-facade-x.github.io/facade-x-tests/tests/csv/3-features#> .
+_:BX23row3 <http://sparql.xyz/facade-x/data/price> "-3" <https://w3c-facade-x.github.io/facade-x-tests/tests/csv/3-features#> .
+_:BX23row3 <http://sparql.xyz/facade-x/data/tags> "x,y,z" <https://w3c-facade-x.github.io/facade-x-tests/tests/csv/3-features#> .
+_:BX23row3 <http://sparql.xyz/facade-x/data/notes> "" <https://w3c-facade-x.github.io/facade-x-tests/tests/csv/3-features#> .
+_:BX23row4 <http://sparql.xyz/facade-x/data/id> "4" <https://w3c-facade-x.github.io/facade-x-tests/tests/csv/3-features#> .
+_:BX23row4 <http://sparql.xyz/facade-x/data/name> "Dan" <https://w3c-facade-x.github.io/facade-x-tests/tests/csv/3-features#> .
+_:BX23row4 <http://sparql.xyz/facade-x/data/description> "Multi-line value:\nsecond line\nthird line" <https://w3c-facade-x.github.io/facade-x-tests/tests/csv/3-features#> .
+_:BX23row4 <http://sparql.xyz/facade-x/data/price> "1e3" <https://w3c-facade-x.github.io/facade-x-tests/tests/csv/3-features#> .
+_:BX23row4 <http://sparql.xyz/facade-x/data/tags> "" <https://w3c-facade-x.github.io/facade-x-tests/tests/csv/3-features#> .
+_:BX23row4 <http://sparql.xyz/facade-x/data/notes> " " <https://w3c-facade-x.github.io/facade-x-tests/tests/csv/3-features#> .
+_:BX23row5 <http://sparql.xyz/facade-x/data/id> "5" <https://w3c-facade-x.github.io/facade-x-tests/tests/csv/3-features#> .
+_:BX23row5 <http://sparql.xyz/facade-x/data/name> "" <https://w3c-facade-x.github.io/facade-x-tests/tests/csv/3-features#> .
+_:BX23row5 <http://sparql.xyz/facade-x/data/description> "" <https://w3c-facade-x.github.io/facade-x-tests/tests/csv/3-features#> .
+_:BX23row5 <http://sparql.xyz/facade-x/data/price> "" <https://w3c-facade-x.github.io/facade-x-tests/tests/csv/3-features#> .
+_:BX23row5 <http://sparql.xyz/facade-x/data/tags> "" <https://w3c-facade-x.github.io/facade-x-tests/tests/csv/3-features#> .
+_:BX23row5 <http://sparql.xyz/facade-x/data/notes> "" <https://w3c-facade-x.github.io/facade-x-tests/tests/csv/3-features#> .
+_:BX23row6 <http://sparql.xyz/facade-x/data/id> "6" <https://w3c-facade-x.github.io/facade-x-tests/tests/csv/3-features#> .
+_:BX23row6 <http://sparql.xyz/facade-x/data/name> "  Eve  " <https://w3c-facade-x.github.io/facade-x-tests/tests/csv/3-features#> .
+_:BX23row6 <http://sparql.xyz/facade-x/data/description> " leading and trailing spaces " <https://w3c-facade-x.github.io/facade-x-tests/tests/csv/3-features#> .
+_:BX23row6 <http://sparql.xyz/facade-x/data/price> "007" <https://w3c-facade-x.github.io/facade-x-tests/tests/csv/3-features#> .
+_:BX23row6 <http://sparql.xyz/facade-x/data/tags> "tag" <https://w3c-facade-x.github.io/facade-x-tests/tests/csv/3-features#> .
+_:BX23row6 <http://sparql.xyz/facade-x/data/notes> "ends with comma," <https://w3c-facade-x.github.io/facade-x-tests/tests/csv/3-features#> .
+_:BX23row7 <http://sparql.xyz/facade-x/data/id> "7" <https://w3c-facade-x.github.io/facade-x-tests/tests/csv/3-features#> .
+_:BX23row7 <http://sparql.xyz/facade-x/data/name> "Zoë" <https://w3c-facade-x.github.io/facade-x-tests/tests/csv/3-features#> .
+_:BX23row7 <http://sparql.xyz/facade-x/data/description> "Unicode: café, naïve, 日本語, 🙂" <https://w3c-facade-x.github.io/facade-x-tests/tests/csv/3-features#> .
+_:BX23row7 <http://sparql.xyz/facade-x/data/price> "" <https://w3c-facade-x.github.io/facade-x-tests/tests/csv/3-features#> .
+_:BX23row7 <http://sparql.xyz/facade-x/data/tags> "#hash" <https://w3c-facade-x.github.io/facade-x-tests/tests/csv/3-features#> .
+_:BX23row7 <http://sparql.xyz/facade-x/data/notes> "trailing" <https://w3c-facade-x.github.io/facade-x-tests/tests/csv/3-features#> .
