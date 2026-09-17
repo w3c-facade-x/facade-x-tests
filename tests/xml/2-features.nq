@@ -1,0 +1,75 @@
+_:B <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sparql.xyz/facade-x/ns/root> <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .
+_:B <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/catalog#catalog> <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .
+_:B <http://sparql.xyz/facade-x/data/version> "1.0" <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .
+_:B <http://www.w3.org/XML/1998/namespace#lang> "en" <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .
+_:B <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> _:BX2FcatalogX2F1X3AdcX3Atitle <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .
+_:B <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> _:BX2FcatalogX2F2X3Aitem <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .
+_:B <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> _:BX2FcatalogX2F3X3Aitem <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .
+_:B <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> _:BX2FcatalogX2F4X3Aitem <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .
+_:B <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> _:BX2FcatalogX2F5X3Aempty <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .
+_:B <http://www.w3.org/1999/02/22-rdf-syntax-ns#_6> _:BX2FcatalogX2F6X3AemptyExplicit <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .
+_:B <http://www.w3.org/1999/02/22-rdf-syntax-ns#_7> _:BX2FcatalogX2F7X3AemptyWithAttribute <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .
+_:B <http://www.w3.org/1999/02/22-rdf-syntax-ns#_8> _:BX2FcatalogX2F8X3Awhitespace <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .
+_:B <http://www.w3.org/1999/02/22-rdf-syntax-ns#_9> _:BX2FcatalogX2F9X3Aunicode <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .
+_:B <http://www.w3.org/1999/02/22-rdf-syntax-ns#_10> _:BX2FcatalogX2F10X3AexX3Aextension <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .
+_:B <http://www.w3.org/1999/02/22-rdf-syntax-ns#_11> _:BX2FcatalogX2F11X3Anested <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .
+_:BX2FcatalogX2F1X3AdcX3Atitle <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/elements/1.1/title> <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .
+_:BX2FcatalogX2F1X3AdcX3Atitle <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> "Sample catalog" <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .
+_:BX2FcatalogX2F2X3Aitem <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/catalog#item> <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .
+_:BX2FcatalogX2F2X3Aitem <http://sparql.xyz/facade-x/data/id> "i1" <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .
+_:BX2FcatalogX2F2X3Aitem <http://example.org/ext#status> "active" <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .
+_:BX2FcatalogX2F2X3Aitem <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> _:BX2FcatalogX2F2X3AitemX2F1X3Aname <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .
+_:BX2FcatalogX2F2X3Aitem <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> _:BX2FcatalogX2F2X3AitemX2F2X3Aprice <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .
+_:BX2FcatalogX2F2X3AitemX2F1X3Aname <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/catalog#name> <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .
+_:BX2FcatalogX2F2X3AitemX2F1X3Aname <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> "Plain text" <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .
+_:BX2FcatalogX2F2X3AitemX2F2X3Aprice <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/catalog#price> <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .
+_:BX2FcatalogX2F2X3AitemX2F2X3Aprice <http://sparql.xyz/facade-x/data/currency> "EUR" <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .
+_:BX2FcatalogX2F2X3AitemX2F2X3Aprice <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> "10.50" <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .
+_:BX2FcatalogX2F3X3Aitem <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/catalog#item> <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .
+_:BX2FcatalogX2F3X3Aitem <http://sparql.xyz/facade-x/data/id> "i2" <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .
+_:BX2FcatalogX2F3X3Aitem <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> _:BX2FcatalogX2F3X3AitemX2F1X3Aname <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .
+_:BX2FcatalogX2F3X3Aitem <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> _:BX2FcatalogX2F3X3AitemX2F2X3Aname <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .
+_:BX2FcatalogX2F3X3AitemX2F1X3Aname <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/catalog#name> <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .
+_:BX2FcatalogX2F3X3AitemX2F1X3Aname <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> "Entities: < > & \" '" <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .
+_:BX2FcatalogX2F3X3AitemX2F2X3Aname <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/catalog#name> <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .
+_:BX2FcatalogX2F3X3AitemX2F2X3Aname <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> "Character references: é 🙂" <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .
+_:BX2FcatalogX2F4X3Aitem <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/catalog#item> <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .
+_:BX2FcatalogX2F4X3Aitem <http://sparql.xyz/facade-x/data/id> "i3" <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .
+_:BX2FcatalogX2F4X3Aitem <http://sparql.xyz/facade-x/data/note> "attribute with \"quotes\" and \nnewline" <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .
+_:BX2FcatalogX2F4X3Aitem <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> _:BX2FcatalogX2F4X3AitemX2F1X3Adescription <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .
+_:BX2FcatalogX2F4X3Aitem <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> _:BX2FcatalogX2F4X3AitemX2F2X3Amixed <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .
+_:BX2FcatalogX2F4X3Aitem <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> _:BX2FcatalogX2F4X3AitemX2F3X3Apreformatted <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .
+_:BX2FcatalogX2F4X3AitemX2F1X3Adescription <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/catalog#description> <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .
+_:BX2FcatalogX2F4X3AitemX2F1X3Adescription <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> "CDATA with <tags> & \"special\" characters" <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .
+_:BX2FcatalogX2F4X3AitemX2F2X3Amixed <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/catalog#mixed> <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .
+_:BX2FcatalogX2F4X3AitemX2F2X3Amixed <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> "Text " <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .
+_:BX2FcatalogX2F4X3AitemX2F2X3Amixed <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> _:BX2FcatalogX2F4X3AitemX2F2X3AmixedX2F2X3Ab <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .
+_:BX2FcatalogX2F4X3AitemX2F2X3Amixed <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> " and " <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .
+_:BX2FcatalogX2F4X3AitemX2F2X3Amixed <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> _:BX2FcatalogX2F4X3AitemX2F2X3AmixedX2F4X3Ai <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .
+_:BX2FcatalogX2F4X3AitemX2F2X3Amixed <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> " tail" <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .
+_:BX2FcatalogX2F4X3AitemX2F2X3AmixedX2F2X3Ab <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/catalog#b> <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .
+_:BX2FcatalogX2F4X3AitemX2F2X3AmixedX2F2X3Ab <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> "bold" <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .
+_:BX2FcatalogX2F4X3AitemX2F2X3AmixedX2F4X3Ai <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/catalog#i> <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .
+_:BX2FcatalogX2F4X3AitemX2F2X3AmixedX2F4X3Ai <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> "italic" <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .
+_:BX2FcatalogX2F4X3AitemX2F3X3Apreformatted <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/catalog#preformatted> <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .
+_:BX2FcatalogX2F4X3AitemX2F3X3Apreformatted <http://www.w3.org/XML/1998/namespace#space> "preserve" <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .
+_:BX2FcatalogX2F4X3AitemX2F3X3Apreformatted <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> "  spaced\n  lines  " <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .
+_:BX2FcatalogX2F5X3Aempty <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/catalog#empty> <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .
+_:BX2FcatalogX2F6X3AemptyExplicit <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/catalog#emptyExplicit> <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .
+_:BX2FcatalogX2F7X3AemptyWithAttribute <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/catalog#emptyWithAttribute> <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .
+_:BX2FcatalogX2F7X3AemptyWithAttribute <http://sparql.xyz/facade-x/data/flag> "true" <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .
+_:BX2FcatalogX2F8X3Awhitespace <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/catalog#whitespace> <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .
+_:BX2FcatalogX2F9X3Aunicode <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/catalog#unicode> <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .
+_:BX2FcatalogX2F9X3Aunicode <http://www.w3.org/XML/1998/namespace#lang> "ja" <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .
+_:BX2FcatalogX2F9X3Aunicode <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> "日本語 café 🙂" <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .
+_:BX2FcatalogX2F10X3AexX3Aextension <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ext#extension> <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .
+_:BX2FcatalogX2F10X3AexX3Aextension <http://example.org/ext#attr> "namespaced" <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .
+_:BX2FcatalogX2F10X3AexX3Aextension <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> "Namespaced element" <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .
+_:BX2FcatalogX2F11X3Anested <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/catalog#nested> <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .
+_:BX2FcatalogX2F11X3Anested <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> _:BX2FcatalogX2F11X3AnestedX2F1X3Alevel1 <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .
+_:BX2FcatalogX2F11X3AnestedX2F1X3Alevel1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/catalog#level1> <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .
+_:BX2FcatalogX2F11X3AnestedX2F1X3Alevel1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> _:BX2FcatalogX2F11X3AnestedX2F1X3Alevel1X2F1X3Alevel2 <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .
+_:BX2FcatalogX2F11X3AnestedX2F1X3Alevel1X2F1X3Alevel2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/catalog#level2> <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .
+_:BX2FcatalogX2F11X3AnestedX2F1X3Alevel1X2F1X3Alevel2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> _:BX2FcatalogX2F11X3AnestedX2F1X3Alevel1X2F1X3Alevel2X2F1X3Alevel3 <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .
+_:BX2FcatalogX2F11X3AnestedX2F1X3Alevel1X2F1X3Alevel2X2F1X3Alevel3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/catalog#level3> <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .
+_:BX2FcatalogX2F11X3AnestedX2F1X3Alevel1X2F1X3Alevel2X2F1X3Alevel3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> "deep" <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .

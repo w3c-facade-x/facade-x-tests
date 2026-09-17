@@ -183,6 +183,8 @@ def main() -> int:
     ap.add_argument("--version", help="SPARQL Anything release tag, e.g. v1.2.0 (default: latest)")
     ap.add_argument("--jar", type=Path, default=os.environ.get("SPARQL_ANYTHING_JAR"),
                     help="use this SPARQL Anything jar instead of downloading (env: SPARQL_ANYTHING_JAR)")
+    ap.add_argument("-v", "--verbose", action="store_true",
+                    help="show failure reasons and graph differences")
     args = ap.parse_args()
 
     if args.jar:
@@ -203,10 +205,13 @@ def main() -> int:
     passed = failed = 0
     for p in props_files:
         for r in run_test(jar, p, tests_dir):
-            print(f"{'PASS' if r.passed else 'FAIL'}  {r.test}" + (f"  ({r.message})" if r.message else ""),
-                  flush=True)
-            for line in r.details:
-                print(line, flush=True)
+            line = f"{'PASS' if r.passed else 'FAIL'}  {r.test}"
+            if args.verbose and r.message:
+                line += f"  ({r.message})"
+            print(line, flush=True)
+            if args.verbose:
+                for detail in r.details:
+                    print(detail, flush=True)
             passed += r.passed
             failed += not r.passed
 

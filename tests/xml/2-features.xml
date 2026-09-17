@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE catalog>
+<!-- Comment before the root element -->
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+<catalog xmlns="http://example.org/catalog" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ex="http://example.org/ext" version="1.0" xml:lang="en">
+  <dc:title>Sample catalog</dc:title>
+  <item id="i1" ex:status="active">
+    <name>Plain text</name>
+    <price currency="EUR">10.50</price>
+  </item>
+  <item id="i2">
+    <name>Entities: &lt; &gt; &amp; &quot; &apos;</name>
+    <name>Character references: &#233; &#x1F642;</name>
+  </item>
+  <item id="i3" note="attribute with &quot;quotes&quot; and &#10;newline">
+    <description><![CDATA[CDATA with <tags> & "special" characters]]></description>
+    <mixed>Text <b>bold</b> and <i>italic</i> tail</mixed>
+    <!-- Comment inside an element -->
+    <?processing instruction?>
+    <preformatted xml:space="preserve">  spaced
+  lines  </preformatted>
+  </item>
+  <empty/>
+  <emptyExplicit></emptyExplicit>
+  <emptyWithAttribute flag="true"/>
+  <whitespace>   </whitespace>
+  <unicode xml:lang="ja">日本語 café 🙂</unicode>
+  <ex:extension ex:attr="namespaced">Namespaced element</ex:extension>
+  <nested><level1><level2><level3>deep</level3></level2></level1></nested>
+</catalog>
