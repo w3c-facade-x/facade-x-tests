@@ -1,4 +1,4 @@
-_:B <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sparql.xyz/facade-x/ns/root> <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .
+_:B <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sparql.xyz/facade-x/ns/Root> <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .
 _:B <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/catalog#catalog> <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .
 _:B <http://sparql.xyz/facade-x/data/version> "1.0" <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .
 _:B <http://www.w3.org/XML/1998/namespace#lang> "en" <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/2-features#> .

@@ -1,4 +1,4 @@
-_:B <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sparql.xyz/facade-x/ns/root> <https://w3c-facade-x.github.io/facade-x-tests/tests/csv/2-headers#> .
+_:B <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sparql.xyz/facade-x/ns/Root> <https://w3c-facade-x.github.io/facade-x-tests/tests/csv/2-headers#> .
 _:B <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> _:BX23row1 <https://w3c-facade-x.github.io/facade-x-tests/tests/csv/2-headers#> .
 _:B <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> _:BX23row2 <https://w3c-facade-x.github.io/facade-x-tests/tests/csv/2-headers#> .
 _:BX23row1 <http://sparql.xyz/facade-x/data/name> "Alice" <https://w3c-facade-x.github.io/facade-x-tests/tests/csv/2-headers#> .

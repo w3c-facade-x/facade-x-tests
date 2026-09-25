@@ -1,4 +1,4 @@
-_:B <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sparql.xyz/facade-x/ns/root> .
+_:B <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sparql.xyz/facade-x/ns/Root> .
 _:B <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> _:BX23row1 .
 _:B <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> _:BX23row2 .
 _:B <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> _:BX23row3 .

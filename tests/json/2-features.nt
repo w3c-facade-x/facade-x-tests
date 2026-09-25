@@ -1,4 +1,4 @@
-_:B <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sparql.xyz/facade-x/ns/root> .
+_:B <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sparql.xyz/facade-x/ns/Root> .
 _:B <http://sparql.xyz/facade-x/data/string> "Hello, world" .
 _:B <http://sparql.xyz/facade-x/data/emptyString> "" .
 _:B <http://sparql.xyz/facade-x/data/escapes> "quote \" backslash \\ slash / tab \t newline \n cr \r backspace \b formfeed \f" .

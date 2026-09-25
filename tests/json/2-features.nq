@@ -1,4 +1,4 @@
-_:B <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sparql.xyz/facade-x/ns/root> <https://w3c-facade-x.github.io/facade-x-tests/tests/json/2-features#> .
+_:B <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sparql.xyz/facade-x/ns/Root> <https://w3c-facade-x.github.io/facade-x-tests/tests/json/2-features#> .
 _:B <http://sparql.xyz/facade-x/data/string> "Hello, world" <https://w3c-facade-x.github.io/facade-x-tests/tests/json/2-features#> .
 _:B <http://sparql.xyz/facade-x/data/emptyString> "" <https://w3c-facade-x.github.io/facade-x-tests/tests/json/2-features#> .
 _:B <http://sparql.xyz/facade-x/data/escapes> "quote \" backslash \\ slash / tab \t newline \n cr \r backspace \b formfeed \f" <https://w3c-facade-x.github.io/facade-x-tests/tests/json/2-features#> .

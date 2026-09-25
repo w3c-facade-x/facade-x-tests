@@ -1,4 +1,4 @@
-_:B <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sparql.xyz/facade-x/ns/root> .
+_:B <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sparql.xyz/facade-x/ns/Root> .
 _:B <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/catalog#catalog> .
 _:B <http://sparql.xyz/facade-x/data/version> "1.0" .
 _:B <http://www.w3.org/XML/1998/namespace#lang> "en" .

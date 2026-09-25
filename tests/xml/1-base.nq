@@ -1,4 +1,4 @@
-_:B <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sparql.xyz/facade-x/ns/root> <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/1-base#> .
+_:B <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sparql.xyz/facade-x/ns/Root> <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/1-base#> .
 _:B <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sparql.xyz/facade-x/data/person> <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/1-base#> .
 _:B <http://sparql.xyz/facade-x/data/id> "p1" <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/1-base#> .
 _:B <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> _:BX2FpersonX2F1X3Aname <https://w3c-facade-x.github.io/facade-x-tests/tests/xml/1-base#> .

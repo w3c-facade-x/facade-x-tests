@@ -1,3 +1,3 @@
-_:B <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sparql.xyz/facade-x/ns/root> <https://w3c-facade-x.github.io/facade-x-tests/tests/json/1-base#> .
+_:B <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sparql.xyz/facade-x/ns/Root> <https://w3c-facade-x.github.io/facade-x-tests/tests/json/1-base#> .
 _:B <http://sparql.xyz/facade-x/data/name> "Alice" <https://w3c-facade-x.github.io/facade-x-tests/tests/json/1-base#> .
 _:B <http://sparql.xyz/facade-x/data/age> "30"^^<http://www.w3.org/2001/XMLSchema#decimal> <https://w3c-facade-x.github.io/facade-x-tests/tests/json/1-base#> .
