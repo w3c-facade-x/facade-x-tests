@@ -6,10 +6,10 @@ _:B <http://sparql.xyz/facade-x/data/unicode> "café, 日本語, emoji 🙂" <ht
 _:B <http://sparql.xyz/facade-x/data/integer> "42"^^<http://www.w3.org/2001/XMLSchema#decimal> <https://w3c-facade-x.github.io/facade-x-tests/tests/json/2-features#> .
 _:B <http://sparql.xyz/facade-x/data/negative> "-7"^^<http://www.w3.org/2001/XMLSchema#decimal> <https://w3c-facade-x.github.io/facade-x-tests/tests/json/2-features#> .
 _:B <http://sparql.xyz/facade-x/data/zero> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <https://w3c-facade-x.github.io/facade-x-tests/tests/json/2-features#> .
-_:B <http://sparql.xyz/facade-x/data/negativeZero> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <https://w3c-facade-x.github.io/facade-x-tests/tests/json/2-features#> .
+_:B <http://sparql.xyz/facade-x/data/negativeZero> "-0"^^<http://www.w3.org/2001/XMLSchema#decimal> <https://w3c-facade-x.github.io/facade-x-tests/tests/json/2-features#> .
 _:B <http://sparql.xyz/facade-x/data/decimal> "3.14"^^<http://www.w3.org/2001/XMLSchema#decimal> <https://w3c-facade-x.github.io/facade-x-tests/tests/json/2-features#> .
-_:B <http://sparql.xyz/facade-x/data/exponent> "1.5e3"^^<http://www.w3.org/2001/XMLSchema#decimal> <https://w3c-facade-x.github.io/facade-x-tests/tests/json/2-features#> .
-_:B <http://sparql.xyz/facade-x/data/negativeExponent> "2E-4"^^<http://www.w3.org/2001/XMLSchema#decimal> <https://w3c-facade-x.github.io/facade-x-tests/tests/json/2-features#> .
+_:B <http://sparql.xyz/facade-x/data/exponent> "1.5e3"^^<http://www.w3.org/2001/XMLSchema#double> <https://w3c-facade-x.github.io/facade-x-tests/tests/json/2-features#> .
+_:B <http://sparql.xyz/facade-x/data/negativeExponent> "2E-4"^^<http://www.w3.org/2001/XMLSchema#double> <https://w3c-facade-x.github.io/facade-x-tests/tests/json/2-features#> .
 _:B <http://sparql.xyz/facade-x/data/bigInteger> "12345678901234567890"^^<http://www.w3.org/2001/XMLSchema#decimal> <https://w3c-facade-x.github.io/facade-x-tests/tests/json/2-features#> .
 _:B <http://sparql.xyz/facade-x/data/true> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> <https://w3c-facade-x.github.io/facade-x-tests/tests/json/2-features#> .
 _:B <http://sparql.xyz/facade-x/data/false> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> <https://w3c-facade-x.github.io/facade-x-tests/tests/json/2-features#> .
