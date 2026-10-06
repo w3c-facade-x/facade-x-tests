@@ -1,0 +1,37 @@
+_:B <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sparql.xyz/facade-x/ns/Root> .
+_:B <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sparql.xyz/facade-x/data/doc> .
+_:B <http://www.w3.org/XML/1998/namespace#lang> "en" .
+_:B <http://sparql.xyz/facade-x/data/title> "Languages" .
+_:B <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> _:BX2FdocX2F1X3Ap .
+_:B <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> _:BX2FdocX2F2X3Ap .
+_:B <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> _:BX2FdocX2F3X3Ap .
+_:B <http://www.w3.org/1999/02/22-rdf-syntax-ns#_4> _:BX2FdocX2F4X3Ap .
+_:B <http://www.w3.org/1999/02/22-rdf-syntax-ns#_5> _:BX2FdocX2F5X3Ap .
+_:B <http://www.w3.org/1999/02/22-rdf-syntax-ns#_6> _:BX2FdocX2F6X3Ap .
+_:BX2FdocX2F1X3Ap <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sparql.xyz/facade-x/data/p> .
+_:BX2FdocX2F1X3Ap <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> "Inherited" .
+_:BX2FdocX2F2X3Ap <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sparql.xyz/facade-x/data/p> .
+_:BX2FdocX2F2X3Ap <http://www.w3.org/XML/1998/namespace#lang> "it" .
+_:BX2FdocX2F2X3Ap <http://sparql.xyz/facade-x/data/note> "nota" .
+_:BX2FdocX2F2X3Ap <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> "Sovrascritto " .
+_:BX2FdocX2F2X3Ap <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> _:BX2FdocX2F2X3ApX2F2X3Ab .
+_:BX2FdocX2F2X3Ap <http://www.w3.org/1999/02/22-rdf-syntax-ns#_3> " fine" .
+_:BX2FdocX2F2X3ApX2F2X3Ab <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sparql.xyz/facade-x/data/b> .
+_:BX2FdocX2F2X3ApX2F2X3Ab <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> "grassetto" .
+_:BX2FdocX2F3X3Ap <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sparql.xyz/facade-x/data/p> .
+_:BX2FdocX2F3X3Ap <http://www.w3.org/XML/1998/namespace#lang> "" .
+_:BX2FdocX2F3X3Ap <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> "No language " .
+_:BX2FdocX2F3X3Ap <http://www.w3.org/1999/02/22-rdf-syntax-ns#_2> _:BX2FdocX2F3X3ApX2F2X3Aq .
+_:BX2FdocX2F3X3ApX2F2X3Aq <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sparql.xyz/facade-x/data/q> .
+_:BX2FdocX2F3X3ApX2F2X3Aq <http://www.w3.org/XML/1998/namespace#lang> "fr" .
+_:BX2FdocX2F3X3ApX2F2X3Aq <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> "Rétabli" .
+_:BX2FdocX2F4X3Ap <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sparql.xyz/facade-x/data/p> .
+_:BX2FdocX2F4X3Ap <http://www.w3.org/XML/1998/namespace#lang> "en-GB" .
+_:BX2FdocX2F4X3Ap <http://www.w3.org/XML/1998/namespace#space> "preserve" .
+_:BX2FdocX2F4X3Ap <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> "Colour" .
+_:BX2FdocX2F5X3Ap <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sparql.xyz/facade-x/data/p> .
+_:BX2FdocX2F5X3Ap <http://www.w3.org/XML/1998/namespace#lang> "not a tag" .
+_:BX2FdocX2F5X3Ap <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> "Malformed" .
+_:BX2FdocX2F6X3Ap <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sparql.xyz/facade-x/data/p> .
+_:BX2FdocX2F6X3Ap <http://sparql.xyz/facade-x/data/label> "inherited attribute" .
+_:BX2FdocX2F6X3Ap <http://www.w3.org/1999/02/22-rdf-syntax-ns#_1> "Child attribute" .

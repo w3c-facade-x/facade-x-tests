@@ -32,6 +32,9 @@ This file lists all tests in the suite, organised by source format.
   - prolog, `DOCTYPE`, comments and processing instructions;
   - default and prefixed namespaces, and namespaced attributes;
   - predefined entities, character references and CDATA;
-  - mixed content, `xml:space` and `xml:lang`;
+  - mixed content, `xml:space` and `xml:lang` (values in scope of `xml:lang` are language-tagged);
   - empty and whitespace-only elements;
   - Unicode and deep nesting.
+- `3-lang`: default options on a document using `xml:lang`: inheritance, override, `xml:lang=""`, a malformed tag, and `xml:space`. Text nodes and attribute values in the scope of `xml:lang` are language-tagged; values of `xml:*` attributes are not; `xml:lang` is also held as an attribute.
+- `4-lang-tags`: same input with `xml.lang-tags=true` ([facade-x-specs#46](https://github.com/w3c-facade-x/facade-x-specs/issues/46)). Same output as `3-lang`.
+- `5-lang-no-tags`: same input with `xml.lang-tags=false`. All values are plain literals; `xml:lang` is held as an attribute only.
